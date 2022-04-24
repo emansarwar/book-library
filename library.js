@@ -45,9 +45,9 @@ const showBook = (books) => {
                   <img class="mx-auto mt-2 rounded" src='https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg' />
                     <div class="card-body mx-auto">
                          <h4>${book.title}</h4>
-                         <p>author: ${author}</p>
-                        <p>publiser: ${bookPublisher}</p>
-                        <p>frist publist: ${book.first_publish_year}</p>
+                         <p>Author: ${author}</p>
+                        <p>Publisher: ${bookPublisher}</p>
+                        <p>First published: ${book.first_publish_year}</p>
                     </div>
              </div>
         `;
